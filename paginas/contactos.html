@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,300&family=Playfair+Display:ital,wght@0,900;1,400;1,600;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <title>contacto</title>
+
+</head>
+
+<body>
+
+    <header class="conteiner" id="haader">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="../imagenes/logo__inmobiliaria.png" alt="" width="100" height="100"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item btn btn-outline-info">
+                                    <a class="nav-link" aria-current="page" href="../index.html">inicio</a>
+                                </li>
+                                <li class="nav-item btn btn-outline-info">
+                                    <a class="nav-link" href="./casa.html">casas</a>
+                                </li>
+                                <li class="nav-item btn btn-outline-info">
+                                    <a class="nav-link " href="./alquileres.html">alquileres</a>
+                                </li>
+                                <li class="nav-item btn btn-outline-info">
+                                    <a class="nav-link" href="./departamentos.html">departamentos</a>
+                                </li>
+                                <li class="nav-item btn btn-outline-info">
+                                    <a class="nav-link active" href="./contactos.html">contactos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <fieldset class="formulario_de_solicitu"></fieldset>
+                <legend>formulario del solicitante</legend>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <label for="validationDefault01" class="form-label">nombre completo</label>
+                        <input type="text" class="form-control" id="validationDefault01" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationDefault02" class="form-label">apellido</label>
+                        <input type="text" class="form-control" id="validationDefault02" value="" required>
+                    </div>
+
+                    <div class="col-mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email requerido</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <p>horario de trabajo</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="horario completo">
+                        <label class="form-check-label" for="inlineRadio1">horario completo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="media jornada">
+                        <label class="form-check-label" for="inlineRadio2">media jornada</label>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">area de texto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="form-check-label" for="invalidCheck2">
+                                debe aceptar los terminos y condiciones antes de enviar
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary" type="submit">enviar</button>
+                    </div>
+
+                    <div class="col-4">
+                        <button class="btn btn-primary" type="reset">borrar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container" id="footer">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-3">
+                <div>
+                    <img src="../imagenes/casa-del-vector-logo-la-construccion-de-viviendas-y-el-simbolo-vector-logo-2a3x9nn.jpg" alt="" style="max-width: 200px">
+                </div>
+                <div class="mt-2">
+                    <p class="fw-bold"> Edificio Bureau Pilar Sur 3º</p>
+
+                    <p class="fw-bold">Ruta Panamericana Ramal Pilar</p>
+
+                    <p class="fw-bold"> Buenos Aires, Argentina</p>
+                    <button type="button" class="bi bi-facebook" id="facebook" style="font-size: 28px;"></button>
+
+                    <button type="button" class="bi bi-whatsapp" id="whatsapp" style="font-size:28px;"></button>
+
+
+                    <button type="button" class="bi bi-twitter" id="twitter" style="font-size:28px; "></button>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3">
+                <div>
+                    <p class="fs-2 fw-bold">condominios</p>
+                    <ul class="fw-semibold fs-6" style="list-style: none;">
+                        <li>apartamentos las liebres</li>
+                        <li>carruajes:pilara</li>
+                        <li>civi tortuga</li>
+                        <li>condominios tortuga 1</li>
+                        <li>condominios tortuga 2</li>
+                        <li>club de campo</li>
+                        <li>Pueyrredon</li>
+                        <li>Loft en Ayres Vila</li>
+                        <li>Residences | Pilará</li>
+                        <li>Studios</li>
+                        <li>Oliden Joven</li>
+                        <li>Terrazas al Golf | Pilará</li>
+                        <li>Terrazas de Ayres</li>
+                        <li>Townhouses | Pilará</li>
+                        <li>Vilahaus</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div>
+                    <p class="fs-2 fw-bold">oficinas y lotes</p>
+                    <ul class="fw-semibold fs-6" style="list-style: none;">
+                        <li>Bureau</li>
+                        <li>Km40</li>
+                        <li>Meridiano Bussiness</li>
+                        <li>Center</li>
+                        <li>Paralelo 50</li>
+                        <li>Skyglass 1</li>
+                        <li>Skyglass 2</li>
+                        <li>Skyglass 3</li>
+                        <li>Studios</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div>
+                    <p class="fs-2 fw-bold">countris y barrios</p>
+                    <ul class="fw-semibold fs-6" style="list-style: none;">
+                        <li>Ayres Plaza</li>
+                        <li>Ayres de Pilar</li>
+                        <li>Azzurra Tortugas</li>
+                        <li>El Milagro</li>
+                        <li>El Olivar</li>
+                        <li>Estancias del Pilar</li>
+                        <li>Golf Club Argentino</li>
+                        <li>La Lomada</li>
+                        <li>Las Liebres</li>
+                        <li>Los Senderos I</li>
+                        <li>Martindale Country Club</li>
+                        <li>Olivos Golf Club</li>
+                        <li>Pilará</li>
+                        <li>Tilbury, Pilará</li>
+                        <li>San Jorge Village</li>
+                        <li>Tortugas Country Club</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+</body></html>

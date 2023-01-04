@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.nav-link {
+  font-family: 'Chivo Mono', monospace;
+  color: gray; }
+
+#haader {
+  border-top: 3px solid red; }
+
+#main {
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  padding: 10px; }
+
+#propiedades__destacadas__uno {
+  margin-top: 60px; }
+
+#propiedades__destacadas__dos {
+  margin-top: 60px; }
+
+.propiedades__destacadas {
+  text-align: center;
+  margin-top: 60px; }
+
+.img__departamentos__uno {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-pixabay-276724--departamestos--1.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__dos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-vecislavas-popa-1571460--departamnetos--2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__tres {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-chait-goli-1918291--departamentos--3.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__cuatro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-vecislavas-popa-1571468--departamentos--4.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__cinco {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-medhat-ayad-439227--departamentos--5.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__seis {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-vecislavas-popa-1668860--departamentos--6.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__siete {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-pixabay-271795--departamentos--7.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__ocho {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-ilya-shakir-2440471--departamentos--8.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__nueve {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-catherine-augustin-3049121--departamentos--9.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__diez {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-emre-can-acer-2079249--departamentos--10.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__once {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-donald-tong-189333--departamentos--11.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__doce {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-jean-van-der-meulen-1543447--departamentos--12.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__trece {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-mike-b-106936--departamentos--13.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.img__departamentos__catorce {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../imagenes/pexels-designecologist-1046639--departamentos--14.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.texto12 {
+  color: white;
+  text-align: center;
+  width: 50%; }
+
+.precios__departamentos {
+  color: white;
+  font-size: 20px; }
+
+.detalles {
+  color: white;
+  font-size: 20px; }
+
+#informacion__inportante {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#texto__intro {
+  text-align: end; }
+
+#texto__intro__dos {
+  text-align: end; }
+
+#carouselExampleInterval {
+  margin-bottom: 50px; }
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 40px; }
+
+#propietarios__seccion__info p {
+  font-size: 25px;
+  font-family: 'Chivo Mono', monospace; }
+
+span {
+  font-family: 'Chivo Mono', monospace; }
+
+.precios {
+  color: green; }
+
+.servicios {
+  font-size: 15px;
+  font-family: 'Chivo Mono', monospace; }
+
+.infraestrutura {
+  font-size: 15px;
+  font-family: 'Chivo Mono', monospace; }
+
+#informacion__condominios_uno li {
+  font-family: 'Chivo Mono', monospace;
+  font-size: 12px; }
+
+#informacion__condominios_dos li {
+  font-family: 'Chivo Mono', monospace;
+  font-size: 12px; }
+
+#informacion__condominios_tres li {
+  font-family: 'Chivo Mono', monospace;
+  font-size: 12px; }
+
+#formulario {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+#footer {
+  background-color: aquamarine;
+  margin-top: 50px; }
+
+/*# sourceMappingURL=estilo.css.map */
